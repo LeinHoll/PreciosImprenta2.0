@@ -210,7 +210,7 @@ public class principal extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 6);
         jPanel1.add(jLabel4, gridBagConstraints);
 
-        spinJuegos.setModel(new javax.swing.SpinnerNumberModel(Integer.valueOf(1), Integer.valueOf(1), null, Integer.valueOf(1)));
+        spinJuegos.setModel(new javax.swing.SpinnerNumberModel(1, 1, null, 1));
         spinJuegos.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 spinJuegosStateChanged(evt);
@@ -222,7 +222,7 @@ public class principal extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 2, 0);
         jPanel1.add(spinJuegos, gridBagConstraints);
 
-        spinDivisor.setModel(new javax.swing.SpinnerNumberModel(Integer.valueOf(1), Integer.valueOf(1), null, Integer.valueOf(1)));
+        spinDivisor.setModel(new javax.swing.SpinnerNumberModel(1, 1, null, 1));
         spinDivisor.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 spinDivisorStateChanged(evt);
@@ -314,7 +314,7 @@ public class principal extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 2, 0);
         jPanel2.add(ftfDiseño, gridBagConstraints);
 
-        spinTintas.setModel(new javax.swing.SpinnerNumberModel(Integer.valueOf(1), Integer.valueOf(1), null, Integer.valueOf(1)));
+        spinTintas.setModel(new javax.swing.SpinnerNumberModel(1, 1, null, 1));
         spinTintas.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 spinTintasStateChanged(evt);
@@ -323,7 +323,7 @@ public class principal extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 1;
-        gridBagConstraints.ipadx = 26;
+        gridBagConstraints.ipadx = 15;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.EAST;
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 2, 0);
         jPanel2.add(spinTintas, gridBagConstraints);
@@ -338,12 +338,12 @@ public class principal extends javax.swing.JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 2;
-        gridBagConstraints.ipadx = 22;
+        gridBagConstraints.ipadx = 15;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.EAST;
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 2, 0);
         jPanel2.add(ftfPlaca, gridBagConstraints);
 
-        spinDesperdicio.setModel(new javax.swing.SpinnerNumberModel(Integer.valueOf(5), Integer.valueOf(0), null, Integer.valueOf(1)));
+        spinDesperdicio.setModel(new javax.swing.SpinnerNumberModel(5, 0, null, 1));
         spinDesperdicio.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 spinDesperdicioStateChanged(evt);
